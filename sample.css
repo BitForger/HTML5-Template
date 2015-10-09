@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/** CSS Responsive landing page template */
+/* Copyright Noah Kovacs 2015 */
+
+/* Display Reset for old browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+p, h1, h2, h3, h4, h5, h6, body, html, td, th, * {
+    margin: 0;
+    padding: 0;
+    bottom: 0 none;
+}
+
+body {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+img, audio, video {
+    width: 100%;
+}
+
+/******************************************* Main Wrappers ***********************************/
+
+.wrapper-header,
+.wrapper-teal,
+.wrapper-ltgrey,
+.wrapper-gold,
+.wrapper-dkgrey,
+.wrapper-white,
+.wrapper-footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: block;
+    z-index: 0;
+}
+
+.wrapper-header {
+    background-color: #000;
+    min-height: 6em;
+}
+
+.wrapper-teal {
+    background-color: #59869e;
+}
+
